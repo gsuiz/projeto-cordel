@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700;900&family=Sriracha&display=swap');
+.topo{
+    width: 100vw;
+    max-height: 40vh;
+    background-color: black;
+    text-align: center;
+}
+.text{
+    color: white;
+    padding: 50px 0px;
+    font:1em Arial, Helvetica, sans-serif; 
+}
+.text h1{
+    font: 8vw 'passion one', sans-serif;
+    display: inline-block;
+}
+.text h1::first-letter {
+    font-size: 9vw;
+}
+.text p a{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.text p a:hover{
+    text-decoration: underline;
+}/*cabecalho-header*/
+.b-white{
+    width: 100vw;
+    max-height: 9999vh;
+}
+.estrofe-w{
+    white-space: pre-line;
+    max-width: 58vw;
+    font:italic bold 3.5vw 'Sriracha', cursive;
+    padding:0 0 60px 30px;
+    line-height: 200%;
+}
+.img{
+    width: 100vw;
+    max-height: 9999vh;
+    background: black url(../imagens/background001.jpg) center center no-repeat fixed;
+    background-size: cover;
+    padding: 70px 0px;
+}
+.estrofe-g{
+    white-space: pre-line;
+    max-width: 48vw;
+    font:italic bold 3.5vw 'Sriracha', cursive;
+    margin:20px 0 60px 30px;
+    line-height: 200%;
+    color: white;
+    background-color: rgb(0,0,0,0.4);
+}
+footer{
+    width: 100vw;
+    height: 4vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+}
+a strong:hover{
+    text-decoration: underline;
+}
